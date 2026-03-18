@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カロチーノ プレミアム | 100%天然パームフルーツオイル</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600;700;900&family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- FLOATING SIDE PRODUCT CARD (Desktop) -->
+<div class="float-side-cta" id="floatSideCta">
+  <div class="float-card">
+    <div class="float-card-bottle">
+      <img src="images/bottle.png" alt="カロチーノ プレミアム 500g">
+    </div>
+    <a href="https://ts-hds.com/ja/mall" class="float-card-btn" target="_blank">今すぐ購入</a>
+  </div>
+</div>
+
+<div class="nav-overlay" id="navOverlay" onclick="closeMenu()"></div>
+<nav class="header-nav" id="headerNav">
+  <a href="#what" class="header-link" onclick="closeMenu()">特徴</a>
+  <a href="#endorsement" class="header-link" onclick="closeMenu()">医師認定</a>
+  <a href="#story" class="header-link" onclick="closeMenu()">ストーリー</a>
+  <a href="#usage" class="header-link" onclick="closeMenu()">使い方</a>
+  <a href="#recipes" class="header-link" onclick="closeMenu()">レシピ</a>
+  <a href="#reviews" class="header-link" onclick="closeMenu()">口コミ</a>
+  <a href="#faq" class="header-link" onclick="closeMenu()">FAQ</a>
+  <a href="#cta" class="header-cta" onclick="closeMenu()">今すぐ購入</a>
+</nav>
+
+<!-- HEADER -->
+<header class="site-header" id="header">
+  <div class="header-logo">
+    <span class="header-logo-brand">CAROTINO</span> Premium
+  </div>
+  <div class="header-desktop-nav">
+    <a href="#what" class="header-link">特徴</a>
+    <a href="#endorsement" class="header-link">医師認定</a>
+    <a href="#story" class="header-link">ストーリー</a>
+    <a href="#usage" class="header-link">使い方</a>
+    <a href="#recipes" class="header-link">レシピ</a>
+    <a href="#reviews" class="header-link">口コミ</a>
+    <a href="#faq" class="header-link">FAQ</a>
+    <a href="#cta" class="header-cta">今すぐ購入</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="メニューを開く" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+
+<!-- ======== FIRST VIEW ======== -->
+<section class="firstview" id="top">
+  <div class="firstview-bg"></div>
+  <div class="firstview-noise"></div>
+
+  <div class="fv-centered-inner">
+
+    <!-- Top text -->
+    <div class="fv-top-text reveal">
+
+      <h1 class="fv-headline"><em>天然カロテン</em> × ビタミンE</h1>
+      <p class="fv-sub">マレーシア産プレミアムレッドパームオイル</p>
+    </div>
+
+    <!-- Bottle + bubbles stage -->
+    <div class="fv-stage">
+
+      <!-- Bubble 1 — top left -->
+      <div class="fv-bubble fv-bubble-1">
+        <div class="fv-bubble-label">βカロテン<br><span class="fv-bubble-sub">人参の</span></div>
+        <div class="fv-bubble-num">約<em>5.5</em>倍</div>
+      </div>
+
+      <!-- Bubble 2 — bottom left -->
+      <div class="fv-bubble fv-bubble-2">
+        <div class="fv-bubble-label">ビタミンE<br><span class="fv-bubble-sub">オリーブオイルの</span></div>
+        <div class="fv-bubble-num">約<em>10</em>倍</div>
+      </div>
+
+      <!-- Bottle center -->
+      <div class="fv-bottle-center">
+        <div class="fv-bottle-glow"></div>
+        <img src="images/bottle.png" alt="カロチーノ プレミアム ボトル" class="fv-bottle-img">
+      </div>
+
+      <!-- Bubble 3 — top right -->
+      <div class="fv-bubble fv-bubble-3">
+        <div class="fv-bubble-label">コエンザイム<br>Q10</div>
+        <div class="fv-bubble-num">含有</div>
+      </div>
+
+      <!-- Bubble 4 — bottom right -->
+      <div class="fv-bubble fv-bubble-4">
+        <div class="fv-bubble-label">トランス脂肪酸</div>
+        <div class="fv-bubble-num"><em>ゼロ</em></div>
+      </div>
+
+    </div><!-- /fv-stage -->
+
+  </div><!-- /fv-centered-inner -->
+</section>
+
+
+<!-- ======== WHAT IS IT ======== -->
+<section class="what-section" id="what">
+  <div class="what-hand-bg"></div>
+  <div class="container">
+    <div class="what-grid">
+      <div class="what-image-box reveal">
+        <img src="images/about.png" alt="Malaysia — Palm Fruit Origin" class="what-image-photo">
+      </div>
+      <div class="reveal reveal-delay-1 section-hd-wrap">
+        <span class="section-eyebrow">About Carotino</span>
+        <div class="rule"></div>
+        <h2 class="section-title">カロチーノは<br>100%天然の植物油です</h2>
+        <p class="section-body">
+          カロチーノは、南国マレーシア生まれ。アブラヤシの果実（パームフルーツ）の果肉から作られる、世界でも珍しい「赤い植物油」です。<br><br>
+          天然カロテン・スーパービタミンE・コエンザイムQ10などの抗酸化物質を豊富に含み、生活習慣病の予防や美容・健康維持に役立ちます。無味無臭でクセがなく、どんな料理にも使える万能オイルです。
+        </p>
+        <div class="color-note">
+          <strong>なぜ赤いの？</strong><br>
+          鮮やかな赤色は天然カロテンの色です。料理に使用すると食欲をそそる「ゴールデンイエロー」に変わります。着色料は一切使用しておりません。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== GREEN CERTIFICATION BAND ======== -->
+
+
+<!-- ======== BENEFITS ======== -->
+<!-- ======== MID-PAGE CTA BREAK #1 ======== -->
+<div class="mid-cta-break">
+  <div class="mid-cta-inner">
+    <div class="mid-cta-left">
+      
+      <div class="mid-cta-headline">にんじんの5.5倍の<br>天然カロテンを、今日から。</div>
+      <div class="mid-cta-sub">スプーン1杯で体が変わる。医師も認める赤いオイル。</div>
+    </div>
+    <div class="mid-cta-right">
+      <a href="https://ts-hds.com/ja/mall" class="btn-mid-cta" target="_blank">T&amp;S Mallで購入する →</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ======== DOCTOR ENDORSEMENT ======== -->
+<section class="endorsement-section" id="endorsement">
+  <div class="endorsement-wrap">
+
+    <div class="endorsement-section-header reveal">
+      <span class="section-eyebrow">Doctor Endorsement</span>
+      <div class="rule center"></div>
+      <h2 class="endorsement-main-title">心臓外科専門医による<br><em>医師認定商品</em></h2>
+      <p class="endorsement-subtitle">T&amp;S ホールディングス 首席医学顧問・外山雅章医師による公式推薦</p>
+    </div>
+
+    <div class="nintei-letter-wrap reveal">
+      <img src="images/ninteiletter.png" alt="医師認定商品 認定書" class="nintei-letter-img">
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ======== MID-PAGE CTA BREAK #2 ======== -->
+<div class="mid-cta-break">
+  <div class="mid-cta-inner">
+    <div class="mid-cta-left">
+      <div class="mid-cta-headline">他の油では<br>得られない栄養がある。</div>
+      <div class="mid-cta-sub">天然カロテン・トコトリエノール・CoQ10。この3つが揃うのはカロチーノだけです。</div>
+    </div>
+    <div class="mid-cta-right">
+      <a href="https://ts-hds.com/ja/mall" class="btn-mid-cta" target="_blank">T&amp;S Mallで購入する →</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ======== STORY ======== -->
+<section class="story-section" id="story">
+  <div class="container">
+    <div class="reveal center">
+      <span class="section-eyebrow">Our Story</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">マレーシアの<br>パーム農園から</h2>
+    </div>
+    <div class="story-grid">
+      <div class="story-text reveal reveal-delay-1">
+        <p>
+          カロチーノの故郷は、赤道直下のマレーシア。広大なパームヤシ農園で育つアブラヤシの実が、カロチーノの原料です。<br><br>
+          パーム油は世界で年間2,400万トン以上生産される主要な植物油ですが、マレーシアは世界屈指の生産国として知られています。カロチーノは、特許製法によって天然カロテンとビタミンEをそのまま残した、世界で唯一の「赤いパームオイル」です。<br><br>
+          大量生産のパーム油は精製過程でほとんどの栄養素が失われますが、カロチーノは独自の低温精製法によって、自然の恵みをそのままボトルに閉じ込めます。
+        </p>
+        <div class="story-stat">
+          <span class="stat-num">2,400<small style="font-size:1rem;font-family:'Noto Sans JP',sans-serif;">万t</small></span>
+          <span class="stat-label">パーム油の世界年間生産量。マレーシアは生産量 No.1 の産地。</span>
+        </div>
+      </div>
+      <div class="story-visual reveal reveal-delay-2">
+        <img src="images/plantation.png" alt="マレーシアのパームヤシ農園" class="story-visual-photo">
+        <div class="story-visual-label">Malaysia — Palm Fruit Origin</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== COMPARISON TABLE ======== -->
+<section class="compare-section">
+  <div class="container">
+    <div class="center reveal">
+      <span class="section-eyebrow">Nutrition Comparison</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">他の植物油との栄養比較</h2>
+      <p class="section-body" style="max-width:480px;margin:0 auto;">大さじ1杯あたりの含有量。カロチーノの優位性が一目瞭然です。</p>
+    </div>
+    <div class="compare-table-wrap reveal">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th style="text-align:left;padding-left:18px;">栄養成分</th>
+            <th class="highlight">カロチーノ <span>Premium</span></th>
+            <th>オリーブ油</th>
+            <th>なたね油</th>
+            <th>ごま油</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="label-col">天然カロテン</td>
+            <td class="best">8mg ✓</td>
+            <td>痕跡程度</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td class="label-col">ビタミンE</td>
+            <td class="best">2.3mg ✓</td>
+            <td>1.9mg</td>
+            <td>2.4mg</td>
+            <td>0.4mg</td>
+          </tr>
+          <tr>
+            <td class="label-col">トコトリエノール</td>
+            <td class="best">9.3mg ✓</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td class="label-col">コエンザイムQ10</td>
+            <td class="best">1.8mg ✓</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td class="label-col">トランス型脂肪酸</td>
+            <td class="best">0 ✓</td>
+            <td>微量</td>
+            <td>微量</td>
+            <td>微量</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="compare-scroll-hint">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 4l4 3-4 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      横にスクロールして全体を確認できます
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== NUMBERS / STATS ======== -->
+<!-- numbers-section REMOVED -->
+
+
+<!-- ======== TEMPERATURE COMPARISON ======== -->
+<section class="temp-section">
+  <div class="temp-inner">
+    <div class="center reveal">
+      <span class="section-eyebrow">Color &amp; State Guide</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">温度による色の変化について</h2>
+      <p class="section-body" style="max-width:520px;margin:0 auto;">カロチーノは天然のパームフルーツオイルです。温度によって色や状態が変わりますが、品質・栄養価には一切影響ありません。</p>
+    </div>
+
+    <div class="temp-bottles reveal">
+
+      <!-- LEFT: Cold state -->
+      <div class="temp-bottle-card">
+        <div class="temp-bottle-img-wrap">
+          <img src="images/frozen.png" alt="低温時のカロチーノ">
+        </div>
+        <div class="temp-label cold">低温時</div>
+        <div class="temp-label-sub">固体〜半固体状・オレンジ色</div>
+      </div>
+
+      <!-- CENTER: Arrow -->
+      <div class="temp-arrow">
+        <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="arrowGrad" x1="0" y1="0" x2="56" y2="0" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#FFF0B0"/>
+              <stop offset="45%" stop-color="#F5C842"/>
+              <stop offset="100%" stop-color="#D4930A"/>
+            </linearGradient>
+          </defs>
+          <path d="M2 20h46M36 6l16 14-16 14" stroke="url(#arrowGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <!-- RIGHT: Room temp state -->
+      <div class="temp-bottle-card">
+        <div class="temp-bottle-img-wrap">
+          <img src="images/regular.png" alt="常温時のカロチーノ">
+        </div>
+        <div class="temp-label room">常温時</div>
+        <div class="temp-label-sub">液体状・深いルビー色</div>
+      </div>
+
+    </div>
+
+    <!-- Note box -->
+    <div class="temp-note-box reveal">
+      <span class="temp-note-icon">💡</span>
+      <p class="temp-note-text">
+        固まった場合は、<strong>40〜50℃程度のお湯で湯せん</strong>していただくことで、元の美しいルビー色の液状に戻ります。<br>
+        湯せんを繰り返していただいても、品質への影響はございませんので、安心してご使用いただけます。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== USAGE ======== -->
+<section class="usage-section" id="usage">
+  <div class="container">
+    <div class="center reveal">
+      <span class="section-eyebrow">How to Use</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">どんな料理にも合う<br>万能オイル</h2>
+    </div>
+    <div class="usage-grid">
+      <div class="usage-card reveal reveal-delay-1">
+        <div class="usage-card-image">
+          <span class="usage-tag">Cooking</span>
+          <img src="images/cooking.png" alt="炒める・焼く">
+        </div>
+        <div class="usage-card-body">
+          <div class="usage-card-title">炒める・焼く</div>
+          <p class="usage-card-desc">炒め物・ソテーに最適。加熱しても栄養価が落ちず、素材の旨味を引き立てます。</p>
+        </div>
+      </div>
+      <div class="usage-card reveal reveal-delay-2">
+        <div class="usage-card-image">
+          <span class="usage-tag">Frying</span>
+          <img src="images/frying.png" alt="揚げ物">
+        </div>
+        <div class="usage-card-body">
+          <div class="usage-card-title">揚げ物</div>
+          <p class="usage-card-desc">揚げ油としても美味しく仕上がります。油っぽさが少なくさっぱりとした食感に。</p>
+        </div>
+      </div>
+      <div class="usage-card reveal reveal-delay-3">
+        <div class="usage-card-image">
+          <span class="usage-tag">Dressing</span>
+          <img src="images/dressing.png" alt="ドレッシング・和え物">
+        </div>
+        <div class="usage-card-body">
+          <div class="usage-card-title">ドレッシング・和え物</div>
+          <p class="usage-card-desc">酢や醤油との相性抜群。サラダや和え物に混ぜてもお使いいただけます。</p>
+        </div>
+      </div>
+    </div>
+    <div class="usage-note reveal">
+      カロチーノは無味無臭なので、素材の風味をそのまま生かします。炊き込みご飯や和え物など、日本の家庭料理とも好相性です。
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== RECIPES ======== -->
+<section class="recipes-section" id="recipes">
+  <div class="container">
+    <div class="reveal center">
+      <span class="section-eyebrow">Carotino Recipes</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">家族の健康をサポート<br>カロチーノレシピ</h2>
+      <p class="section-body" style="max-width:600px;margin:0 auto 0;">
+        ふだんのお料理のクッキングオイルとして「炒める」「焼く」「揚げる」「和える」「炊き込む」など、どんなお料理にも使えます。ドレッシングやマヨネーズに混ぜてもOK！
+      </p>
+    </div>
+
+    <div class="recipes-grid">
+
+      <!-- Recipe 1: 長芋のカロチーノ焼き -->
+      <div class="recipe-card reveal reveal-delay-1">
+        <div class="recipe-card-header">
+          <div class="recipe-card-title">長芋のカロチーノ焼き</div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-image-wrap">
+            <img src="images/nagaimo.png" alt="長芋のカロチーノ焼き">
+          </div>
+
+          <div class="recipe-ingredients">
+            <div class="recipe-ing-header">
+              <div class="recipe-ing-title">材料</div>
+              <div class="recipe-servings-tag">2人分</div>
+            </div>
+            <div class="recipe-ing-grid">
+              <div class="recipe-ing-item"><span class="recipe-ing-name">長芋</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">300g</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">ローズマリー</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">1枝</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">塩</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">少量</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">こしょう</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">少量</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">カロチーノ（A）</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">大さじ1</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">にんにく（A）</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">1かけ（みじん切り）</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">ローズマリー（A）</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">少量（みじん切り）</span></div>
+            </div>
+          </div>
+
+          <div class="recipe-steps-title" style="margin-top:20px;">作り方</div>
+          <ol class="recipe-steps">
+            <li><span class="recipe-step-num">1</span><span>長芋は1.5cm厚さに切って皮をむく。</span></li>
+            <li><span class="recipe-step-num">2</span><span>フライパンにAを入れて火にかけ、長芋を並べて蓋をし、5〜6分焼く。</span></li>
+            <li><span class="recipe-step-num">3</span><span>長芋の片面がきつね色になったら、塩、こしょうをふり、裏返してさらに5〜6分焼く。</span></li>
+            <li><span class="recipe-step-num">4</span><span>皿に盛り、ローズマリーを飾る。</span></li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Recipe 2: 焼き野菜のマリネ ゆずこしょう風味 -->
+      <div class="recipe-card reveal reveal-delay-2">
+        <div class="recipe-card-header">
+          <div class="recipe-card-title">焼き野菜のマリネ ゆずこしょう風味</div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-image-wrap">
+            <img src="images/stirfry.png" alt="焼き野菜のマリネ ゆずこしょう風味">
+          </div>
+
+          <div class="recipe-ingredients">
+            <div class="recipe-ing-header">
+              <div class="recipe-ing-title">材料</div>
+              <div class="recipe-servings-tag">2人分</div>
+            </div>
+            <div class="recipe-ing-grid">
+              <div class="recipe-ing-item"><span class="recipe-ing-name">なす</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">1本（70g）</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">れんこん</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">1/2節（80g）</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">にんじん</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">1/3本（40g）</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">さつまいも</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">中1/2本（100g）</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">しとう</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">10本</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">カロチーノ</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">大さじ2</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">ポン酢しょうゆ（A）</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">大さじ2</span></div>
+              <div class="recipe-ing-item"><span class="recipe-ing-name">ゆずこしょう（A）</span><span class="recipe-ing-dots"></span><span class="recipe-ing-amount">少量</span></div>
+            </div>
+          </div>
+
+          <div class="recipe-steps-title" style="margin-top:20px;">作り方</div>
+          <ol class="recipe-steps">
+            <li><span class="recipe-step-num">1</span><span>なすはヘタを落として縦に4等分にし、さらに長さを半分に切る。れんこんは1cm厚さの輪切り、にんじんは5〜6mm厚さの輪切り、さつまいもは皮つきのまま7〜8mm厚さの輪切り、しとうは先を切り縦に切り目を入れておく。</span></li>
+            <li><span class="recipe-step-num">2</span><span>フライパンにカロチーノを入れて熱し、1の野菜を順に焼く。</span></li>
+            <li><span class="recipe-step-num">3</span><span>ボウルにAを入れ、2を和える。</span></li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== TESTIMONIALS ======== -->
+<section class="testimonials-section" id="reviews">
+  <div class="container">
+    <div class="center reveal">
+      <span class="section-eyebrow">Customer Reviews</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">お客様の声・口コミ</h2>
+      <p class="section-body" style="max-width:500px;margin:0 auto;">実際にカロチーノ プレミアムをご愛用のお客様よりいただいたレビューをご紹介します。</p>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">
+          <span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span>
+        </div>
+        <p class="testimonial-text">毎朝の炒め物に使い始めて3ヶ月。<strong>健診でコレステロール値が改善</strong>されました。先生にも驚かれました。色が鮮やかで、料理が華やかになるのも嬉しいです。</p>
+        <div class="testimonial-author">
+          <div class="testimonial-meta">
+            <div class="testimonial-name">T.K さん</div>
+            <div class="testimonial-detail">52歳・主婦・東京都</div>
+          </div>
+          <span class="testimonial-verified">購入済み</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">
+          <span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span>
+        </div>
+        <p class="testimonial-text">医師に勧められて使い始めました。<strong>クセがなく、何にでも使える</strong>のが一番の魅力。子どもの朝ごはんの目玉焼きにも使っています。家族全員で続けています。</p>
+        <div class="testimonial-author">
+          <div class="testimonial-meta">
+            <div class="testimonial-name">T.Y さん</div>
+            <div class="testimonial-detail">47歳・会社員・大阪府</div>
+          </div>
+          <span class="testimonial-verified">購入済み</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="testimonial-stars">
+          <span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star" style="color:#d4c090">★</span>
+        </div>
+        <p class="testimonial-text">健康に気を使うようになり購入。<strong>お肌の調子が明らかに良くなった</strong>と感じています。サプリより手軽に毎日続けられるのが気に入っています。</p>
+        <div class="testimonial-author">
+          <div class="testimonial-meta">
+            <div class="testimonial-name">S.M さん</div>
+            <div class="testimonial-detail">38歳・看護師・神奈川県</div>
+          </div>
+          <span class="testimonial-verified">購入済み</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">
+          <span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span>
+        </div>
+        <p class="testimonial-text">油っぽくなく、揚げ物もさっぱり仕上がります。<strong>高齢の母も喜んで食べています</strong>。天然のカロテンで色も綺麗。贈り物にも最適な一品です。</p>
+        <div class="testimonial-author">
+          <div class="testimonial-meta">
+            <div class="testimonial-name">S.T さん</div>
+            <div class="testimonial-detail">61歳・主婦・愛知県</div>
+          </div>
+          <span class="testimonial-verified">購入済み</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">
+          <span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span>
+        </div>
+        <p class="testimonial-text">健康診断の結果が気になっていたので試しました。<strong>続けやすい価格と使いやすさ</strong>が決め手でした。料理の色が綺麗になって、食卓が明るくなりました。</p>
+        <div class="testimonial-author">
+          <div class="testimonial-meta">
+            <div class="testimonial-name">K.K さん</div>
+            <div class="testimonial-detail">55歳・自営業・福岡県</div>
+          </div>
+          <span class="testimonial-verified">購入済み</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="testimonial-stars">
+          <span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span><span class="testimonial-star">★</span>
+        </div>
+        <p class="testimonial-text">知人の管理栄養士から紹介されました。<strong>ドレッシングに混ぜると美味しい</strong>！ビタミンをサプリなしで摂れるのが主婦目線でとてもありがたいです。</p>
+        <div class="testimonial-author">
+          <div class="testimonial-meta">
+            <div class="testimonial-name">I.S さん</div>
+            <div class="testimonial-detail">44歳・主婦・埼玉県</div>
+          </div>
+          <span class="testimonial-verified">購入済み</span>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+
+<!-- ======== FAQ ======== -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="center reveal">
+      <span class="section-eyebrow">FAQ</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">よくあるご質問</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-mark">Q</span>
+          <span class="faq-q-text">カロチーノはなぜ赤い色をしているのですか？</span>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer-wrap"><div class="faq-answer-overflow"><div class="faq-answer-inner">
+          <span class="faq-a-mark">A</span>
+          <p class="faq-a">鮮やかな赤色は、天然のカロテンの色です。料理に使用すると食欲をそそる「ゴールデンイエロー」色に変わります。着色料は一切使用しておりません。</p>
+        </div></div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-mark">Q</span>
+          <span class="faq-q-text">どんな味・風味の油ですか？</span>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer-wrap"><div class="faq-answer-overflow"><div class="faq-answer-inner">
+          <span class="faq-a-mark">A</span>
+          <p class="faq-a">クセのない無味無臭のさらっとした軽い油です。素材の風味をそのまま活かすことができます。</p>
+        </div></div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-mark">Q</span>
+          <span class="faq-q-text">加熱しても栄養価はなくなりませんか？</span>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer-wrap"><div class="faq-answer-overflow"><div class="faq-answer-inner">
+          <span class="faq-a-mark">A</span>
+          <p class="faq-a">加熱しても栄養価が失われることはありません。サプリメントオイルの感覚で、毎日のお料理にご使用ください。</p>
+        </div></div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-mark">Q</span>
+          <span class="faq-q-text">低温で固まってしまいましたが、大丈夫ですか？</span>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer-wrap"><div class="faq-answer-overflow"><div class="faq-answer-inner">
+          <span class="faq-a-mark">A</span>
+          <p class="faq-a">100%天然のピュアオイルのため、低温になると固まることがあります。50〜60℃のお湯で湯せんすると元のきれいなルビー色の液状に戻ります。栄養価・品質には問題ありません。</p>
+        </div></div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-mark">Q</span>
+          <span class="faq-q-text">食品加工の原料としても使えますか？</span>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer-wrap"><div class="faq-answer-overflow"><div class="faq-answer-inner">
+          <span class="faq-a-mark">A</span>
+          <p class="faq-a">製パン・製麺・製菓・鶏卵加工・レトルト食品などに2〜3%練り込み、食品加工原料としてもお使いいただけます。</p>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======== PRODUCT DETAILS ======== -->
+<section class="details-section">
+  <div class="container">
+    <div class="center reveal">
+      <span class="section-eyebrow">Product Details</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">製品詳細</h2>
+    </div>
+    <div class="details-grid">
+      <div class="reveal reveal-delay-1">
+        <div class="table-scroll-wrap">
+        <table class="product-spec-table">
+          <tr><td>商品名</td><td>カロチーノ プレミアム</td></tr>
+          <tr><td>原材料</td><td>食用パーム油（マレーシア産）</td></tr>
+          <tr><td>内容量</td><td>500g</td></tr>
+          <tr><td>原産国</td><td>マレーシア</td></tr>
+          <tr><td>製造元</td><td>カロチーノ社</td></tr>
+          <tr><td>輸入元</td><td>イエナ商事株式会社</td></tr>
+          <tr><td>保存方法</td><td>高温・直射日光を避け、涼しい暗所で保存</td></tr>
+          <tr><td>開封後</td><td>1〜2ヶ月を目安にお使いください</td></tr>
+        </table>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="table-scroll-wrap">
+        <div class="nutrition-title-bar">
+          栄養成分表示
+          <span>大さじ1杯（14g）あたり</span>
+        </div>
+        <table class="nutrition-table">
+          <tbody>
+            <tr><td>エネルギー</td><td>126 kcal</td></tr>
+            <tr><td>たんぱく質</td><td>0 g</td></tr>
+            <tr><td>脂質</td><td>14 g</td></tr>
+            <tr><td>炭水化物</td><td>0 g</td></tr>
+            <tr><td>ナトリウム</td><td>0 g</td></tr>
+            <tr><td>コレステロール</td><td>0.0 mg</td></tr>
+            <tr class="highlight-row"><td>カロテン</td><td>8 mg</td></tr>
+            <tr class="highlight-row"><td>ビタミンE</td><td>2.3 mg</td></tr>
+            <tr class="highlight-row"><td>トコトリエノール</td><td>9.3 mg</td></tr>
+            <tr class="highlight-row"><td>コエンザイムQ10</td><td>1.8 mg</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="safety-section">
+  <div class="container">
+    <div class="center reveal">
+      <span class="section-eyebrow">Quality &amp; Trust</span>
+      <div class="rule center"></div>
+      <h2 class="section-title">安心・安全へのこだわり</h2>
+    </div>
+    <div class="safety-grid">
+      <div class="safety-item reveal reveal-delay-1">
+        <div class="safety-item-header">
+          <div class="safety-item-title">アレルゲン不使用</div>
+        </div>
+        <div class="safety-item-body">
+          <p class="safety-item-desc">特定原材料および準ずる品目をいっさい含みません。食物アレルギーをお持ちの方や小さなお子様にも安心してお使いいただける、クリーンな天然オイルです。</p>
+        </div>
+      </div>
+      <div class="safety-item reveal reveal-delay-2">
+        <div class="safety-item-header">
+          <div class="safety-item-title">国際品質認証取得</div>
+        </div>
+        <div class="safety-item-body">
+          <p class="safety-item-desc">ISO9001品質管理規格・FSSC22000食品安全マネジメントシステムを取得。世界基準の品質管理体制のもとで製造されています。</p>
+        </div>
+      </div>
+      <div class="safety-item reveal reveal-delay-3">
+        <div class="safety-item-header">
+          <div class="safety-item-title">RSPO認証取得</div>
+        </div>
+        <div class="safety-item-body">
+          <p class="safety-item-desc">持続可能なパーム油のための国際認証「RSPO」を取得。環境・社会に配慮した責任ある農園から調達された、エシカルなオイルです。</p>
+          <span class="safety-cert-code">RSPO-1106022 · Mixed</span>
+        </div>
+      </div>
+      <div class="safety-item reveal reveal-delay-4">
+        <div class="safety-item-header">
+          <div class="safety-item-title">ハラール認証取得</div>
+        </div>
+        <div class="safety-item-body">
+          <p class="safety-item-desc">イスラム法に基づくハラール認証を取得済み。世界標準の食品安全基準を満たし、宗教的な食事制限をお持ちの方にも安心してお選びいただけます。</p>
+          <span class="safety-cert-code">MS 1500 · 1 097-05/2004</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ======== FINAL CTA ======== -->
+<section class="cta-section" id="cta">
+  <div class="cta-inner">
+
+    <h2 class="cta-title">家族の健康を、<br>毎日の料理から。</h2>
+    <p class="cta-sub">スプーン1杯で変わる、毎日の食卓。<br>カロチーノ プレミアム 500g</p>
+    <a href="https://ts-hds.com/ja/mall" class="btn-cta-main" target="_blank">
+      T&amp;S Mallで今すぐ購入する
+      <span class="btn-cta-main-arrow">→</span>
+    </a>
+
+    <div class="line-share-wrap">
+      <p class="line-share-label">友達にシェアする</p>
+      <a href="https://line.me/R/msg/text/?カロチーノ プレミアム 500g - 天然カロテンが凄い！毎日のお料理で手軽に健康管理。%0Ahttps://ts-hds.com/ja/mall" class="btn-line" target="_blank" rel="noopener">
+        <span class="btn-line-icon">💬</span>
+        LINEで友達に教える
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- STICKY MOBILE BUY BAR -->
+<div class="sticky-buy-bar" id="stickyBar">
+  <div class="sticky-bar-product">
+    <div class="sticky-bar-name">カロチーノ プレミアム 500g</div>
+  </div>
+  <a href="https://ts-hds.com/ja/mall" class="sticky-bar-btn" target="_blank">
+    今すぐ購入 →
+  </a>
+</div>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-wordmark">
+      <span class="footer-wordmark-brand">CAROTINO</span>
+      <span class="footer-wordmark-sub">Premium</span>
+    </div>
+    <nav class="footer-nav-links">
+      <a href="#what" class="footer-nav-link">カロチーノとは</a>
+      <a href="#benefits" class="footer-nav-link">栄養成分</a>
+      <a href="#endorsement" class="footer-nav-link">医師認定</a>
+      <a href="#story" class="footer-nav-link">ストーリー</a>
+      <a href="#usage" class="footer-nav-link">使い方</a>
+      <a href="#recipes" class="footer-nav-link">レシピ</a>
+      <a href="#reviews" class="footer-nav-link">口コミ</a>
+      <a href="#faq" class="footer-nav-link">よくある質問</a>
+      <a href="https://ts-hds.com/ja/mall" class="footer-nav-link" target="_blank">公式サイト →</a>
+    </nav>
+    <div class="footer-divider"></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
