@@ -3288,6 +3288,7 @@ section { padding: 100px 40px; }
   .fv-bubble-num { font-size: 0.68rem; }
   .fv-bubble-num em { font-size: 1.3rem; }
   .fv-top-text .fv-headline { font-size: clamp(1.4rem, 5vw, 2.2rem); white-space: normal; }
+  .fv-top-text .fv-sub { font-size: 0.78rem; letter-spacing: 0.02em; white-space: nowrap; }
 }
 @media (max-width: 480px) {
   .fv-centered-inner { padding: 64px 16px 20px; }
