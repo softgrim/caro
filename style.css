@@ -24,7 +24,10 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 /* ===========================
    ENGLISH HEADLINE ABOVE JP
@@ -2680,8 +2683,10 @@ section { padding: 100px 40px; }
 
   /* Grids */
   .what-grid, .story-grid, .details-grid { grid-template-columns: 1fr; gap: 36px; }
-  .story-visual { min-height: unset; aspect-ratio: 16/9; }
-  .what-image-box { min-height: unset; aspect-ratio: 16/9; order: 2; }
+  .story-visual { min-height: unset; aspect-ratio: 4/3; }
+  .story-visual-photo { object-fit: contain; background: var(--beige); }
+  .what-image-box { min-height: unset; aspect-ratio: 4/3; order: 2; }
+  .what-image-photo { object-fit: contain; background: var(--beige); }
   .what-grid > :not(.what-image-box) { order: 1; }
   .benefits-grid { grid-template-columns: 1fr; gap: 16px; }
   .safety-grid { grid-template-columns: 1fr; }
