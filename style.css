@@ -1477,7 +1477,7 @@ section { padding: 100px 40px; }
   box-shadow: 0 4px 20px rgba(192,16,32,0.45);
 }
 .temp-label-sub {
-  font-size: 0.68rem;
+  font-size: 0.85rem;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   letter-spacing: 0.08em;
@@ -2537,11 +2537,8 @@ section { padding: 100px 40px; }
   box-shadow: 0 10px 32px rgba(6,199,85,0.4);
 }
 .btn-line-icon {
-  width: 22px; height: 22px;
-  background: rgba(255,255,255,0.2);
-  border-radius: 4px;
+  width: 24px; height: 24px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 0.85rem;
   flex-shrink: 0;
 }
 
@@ -3185,11 +3182,6 @@ section { padding: 100px 40px; }
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 40px 60px rgba(120,40,10,0.18));
-  animation: bottleFloat 5s ease-in-out infinite;
-}
-@keyframes bottleFloat {
-  0%,100%{ transform: translateY(0); }
-  50%    { transform: translateY(-10px); }
 }
 
 /* Bubbles — shared style */
@@ -3212,27 +3204,27 @@ section { padding: 100px 40px; }
 }
 .fv-bubble-label {
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
   font-weight: 700;
   color: var(--ruby-deep);
   letter-spacing: 0.02em;
   line-height: 1.4;
 }
 .fv-bubble-sub {
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   font-weight: 500;
   color: rgba(100,30,10,0.7);
 }
 .fv-bubble-num {
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--ruby-deep);
   margin-top: 2px;
 }
 .fv-bubble-num em {
   font-style: normal;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: var(--ruby);
   line-height: 1;
@@ -3283,10 +3275,10 @@ section { padding: 100px 40px; }
   .fv-bubble-2 { width: 110px; height: 110px; bottom: 20px; left: 10px; }
   .fv-bubble-3 { width: 110px; height: 110px; top: 20px; right: 0; }
   .fv-bubble-4 { width: 100px; height: 100px; bottom: 24px; right: 10px; }
-  .fv-bubble-label { font-size: 0.72rem; }
-  .fv-bubble-sub { font-size: 0.62rem; }
-  .fv-bubble-num { font-size: 0.68rem; }
-  .fv-bubble-num em { font-size: 1.3rem; }
+  .fv-bubble-label { font-size: 0.86rem; }
+  .fv-bubble-sub { font-size: 0.74rem; }
+  .fv-bubble-num { font-size: 0.8rem; }
+  .fv-bubble-num em { font-size: 1.5rem; }
   .fv-top-text .fv-headline { font-size: clamp(1.4rem, 5vw, 2.2rem); white-space: normal; }
   .fv-top-text .fv-sub { font-size: 0.78rem; letter-spacing: 0.02em; white-space: nowrap; }
 }
@@ -3298,10 +3290,10 @@ section { padding: 100px 40px; }
   .fv-bubble-2 { width: 96px;  height: 96px; }
   .fv-bubble-3 { width: 96px;  height: 96px; }
   .fv-bubble-4 { width: 88px;  height: 88px; }
-  .fv-bubble-label { font-size: 0.62rem; }
-  .fv-bubble-sub { font-size: 0.54rem; }
-  .fv-bubble-num { font-size: 0.6rem; }
-  .fv-bubble-num em { font-size: 1.1rem; }
+  .fv-bubble-label { font-size: 0.74rem; }
+  .fv-bubble-sub { font-size: 0.64rem; }
+  .fv-bubble-num { font-size: 0.7rem; }
+  .fv-bubble-num em { font-size: 1.25rem; }
 }
 /* ===========================
    SECTION BOTTOM DIVIDERS
